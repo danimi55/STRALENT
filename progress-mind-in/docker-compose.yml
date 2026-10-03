@@ -1,0 +1,13 @@
+services:
+  progress:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      # Imposta una password condivisa (nome utente: qualsiasi). Lascia vuoto per disattivarla.
+      APP_PASSWORD: ""
+    volumes:
+      - progress-data:/data
+volumes:
+  progress-data:

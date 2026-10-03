@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Progress MIND:IN</title>
+<meta name="theme-color" content="#111111">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icon.svg">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="top-in">
+    <a class="logo" href="/" aria-label="MIND:IN — Progress"><span>MIND</span><i>:</i><span>IN</span><em>Progress</em></a>
+    <nav class="tabs" id="tabs" aria-label="Sezioni">
+      <button data-view="week" class="on">Settimana</button>
+      <button data-view="projects">Progetti</button>
+      <button data-view="timeline">Timeline</button>
+      <button data-view="team">Team</button>
+    </nav>
+  </div>
+</header>
+<main id="view" aria-live="polite"></main>
+<button class="fab" id="fab" aria-label="Aggiungi nuovo progetto"><b>+</b><span>Nuovo progetto</span></button>
+<dialog id="sheet"></dialog>
+<div id="toast" role="status"></div>
+<script src="/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "progress-mind-in",
+  "version": "1.0.0",
+  "description": "Progress MIND:IN — gestione settimanale di clienti, progetti, milestone e team",
+  "private": true,
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
